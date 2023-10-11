@@ -382,9 +382,10 @@ header:hover .fire {
 
 /* section 5 */
 
-.parent-of-5-6{
+.parent-of-5-6 {
     position: relative;
 }
+
 #sec5 {
     width: 100%;
     overflow: auto;
@@ -393,8 +394,6 @@ header:hover .fire {
 .photo-1 img {
     width: calc(100%/3);
     float: left;
-
-
 }
 
 .photo-2 img {
@@ -442,18 +441,81 @@ header:hover .fire {
     position: absolute;
     top: 65%;
 }
-.pin{
-    color:#9acd32;
+
+.pin {
+    color: #9acd32;
 }
-.pin-h2{
+
+.pin-h2 {
     color: black;
 }
-.pin-p{
+
+.pin-p {
     color: black;
     padding-bottom: 40px;
 }
-.pin-button{
+
+.pin-button {
     margin: 0;
     position: absolute;
     left: 45%;
+}
+
+/* section 7 */
+
+#sec7 {
+    width: 100%;
+    position: absolute;
+    top: 205%;
+    background-color: #9acd32;
+}
+
+.contact {
+    margin: 40px 0 5px 0;
+    font-size: 25px;
+}
+
+.line {
+    width: 150px;
+    height: 5px;
+    border-radius: 10px;
+    margin: auto;
+    background-color: #5f7e20;
+    margin-bottom: 15px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.phone-i {
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.h2-end {
+    font-size: 20px;
+    margin-top: 5px;
+
+}
+
+.v1 {
+    margin-bottom: 50px;
+}
+
+/* section 8 */
+
+#sec8 {
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    bottom: -233%;
+}
+
+.copy{
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 37px;
+    
 }
